@@ -1,0 +1,20 @@
+server:
+  port: 9001
+spring:
+  application:
+    name: simple-pay-task-message
+  cloud:
+    consul:
+      host: 192.168.178.128
+      port: 8500
+      discovery:
+        serviceName: ${spring.application.name} # 注册到consul的服务名称
+        prefer-ip-address: true
+        health-check-interval: 3s
+        health-check-path: /consul/health
+  
+message:
+  send:
+    time-out: 180
+    max-times: 5
+    interval-time: 0,1,2,5,15

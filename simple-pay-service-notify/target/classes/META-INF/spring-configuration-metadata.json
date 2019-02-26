@@ -1,0 +1,85 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.simple.pay.service.notify.config.NotifyConfig",
+      "name": "notify",
+      "type": "com.simple.pay.service.notify.config.NotifyConfig"
+    },
+    {
+      "sourceType": "com.simple.pay.service.notify.config.NotifyConfig",
+      "name": "notify.send",
+      "sourceMethod": "public com.simple.pay.service.notify.config.NotifyConfig.SendConfig getSend() ",
+      "type": "com.simple.pay.service.notify.config.NotifyConfig$SendConfig"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.simple.pay.service.notify.config.NotifyConfig$SendConfig",
+      "name": "message.send.interval-time",
+      "description": "消息间隔发送时间 时间单位分",
+      "type": "java.lang.Integer[]"
+    },
+    {
+      "sourceType": "com.simple.pay.service.notify.config.NotifyConfig$SendConfig",
+      "name": "message.send.max-times",
+      "description": "最大发送次数次数",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.simple.pay.service.notify.config.NotifyConfig$SendConfig",
+      "name": "message.send.time-out",
+      "description": "message timeout (消息存放超过下面设置的时间才可以取出处理),单位：秒",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.simple.pay.service.notify.config.NotifyConfig",
+      "name": "notify.exchange",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.simple.pay.service.notify.config.NotifyConfig",
+      "name": "notify.queue-key",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.simple.pay.service.notify.config.NotifyConfig",
+      "name": "notify.routingkey",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.simple.pay.service.notify.config.NotifyConfig$SendConfig",
+      "name": "notify.send.interval-time",
+      "description": "消息间隔发送时间 时间单位分",
+      "type": "java.lang.Integer[]"
+    },
+    {
+      "sourceType": "com.simple.pay.service.notify.config.NotifyConfig$SendConfig",
+      "name": "notify.send.interval-time",
+      "description": "消息间隔发送时间 时间单位分",
+      "type": "java.lang.Integer[]"
+    },
+    {
+      "sourceType": "com.simple.pay.service.notify.config.NotifyConfig$SendConfig",
+      "name": "notify.send.interval-time",
+      "description": "消息间隔发送时间 时间单位分",
+      "type": "java.lang.Integer[]"
+    },
+    {
+      "sourceType": "com.simple.pay.service.notify.config.NotifyConfig$SendConfig",
+      "name": "notify.send.interval-time",
+      "description": "消息间隔发送时间 时间单位分",
+      "type": "java.lang.Integer[]"
+    },
+    {
+      "sourceType": "com.simple.pay.service.notify.config.NotifyConfig$SendConfig",
+      "name": "notify.send.max-times",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.simple.pay.service.notify.config.NotifyConfig$SendConfig",
+      "name": "notify.send.time-out",
+      "type": "java.lang.Integer"
+    }
+  ]
+}

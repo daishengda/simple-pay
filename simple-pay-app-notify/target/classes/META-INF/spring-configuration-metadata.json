@@ -1,0 +1,24 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.simple.pay.app.notify.config.NotifyConfig",
+      "name": "notify",
+      "type": "com.simple.pay.app.notify.config.NotifyConfig"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.simple.pay.app.notify.config.NotifyConfig",
+      "name": "notify.interval-time",
+      "description": "通知参数（通知规则）",
+      "type": "java.lang.Integer[]"
+    },
+    {
+      "sourceType": "com.simple.pay.app.notify.config.NotifyConfig",
+      "name": "notify.success-value",
+      "description": "通知后用于判断是否成功的返回值（成功标识）,由HttpResponse获取",
+      "type": "java.lang.String"
+    }
+  ]
+}
